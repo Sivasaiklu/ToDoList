@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:chocolate	;
+}
+
+.container{
+    justify-content: space-between;
+    width: 5%;
+    height: 15%;
+    min-width: 350px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px lightgray;
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#taskinfo{
+    width: 75%;
+    height: 35px;
+    border: 2px solid mediumvioletred;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+#taskinfo:focus{
+    outline: none;
+    border-color: fuchsia;
+}
+
+#add{
+    width: 20%;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+}
+
+#tasklist{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid cornsilk;
+}
+
+.del{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+}
+
+
